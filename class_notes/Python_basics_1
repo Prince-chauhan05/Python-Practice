@@ -1,0 +1,972 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "ce6af9ae-aa79-4735-bbd1-aa78b45521f9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('hello')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "825ee7d5-6e49-4756-85e4-676fe97feb78",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "633d1910-f26c-45f8-b71e-7ec2eacff47f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# print the name in quotos\"\"   ,     for example hello \"Prince Chauhan\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "a9aaa898-4e80-423e-bf35-d84fddbb410c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello \"Prine Chauhan\"\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Hello \"Prine Chauhan\"')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d4177052-367b-4b81-b9fa-2638660df432",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# for example 'hello' Prince Chauhan"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "76c609ee-7001-4a34-afdf-dbfd486d2538",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "'Hello'Prince\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"'Hello'Prince\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "78d3e76c-298e-4090-a057-5400a54ad1f3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# for example \"hello\"  'Prince Chauhan'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "32393c37-0ec3-4692-82ee-82f0327d202c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\"Hello\"\n",
+      "'Prince'\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('\"Hello\"''\\n'\"'Prince'\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "a9e041e7-2989-46a0-aa9b-39a1ec51b0f8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# display \\n ,  use for new line ,  and \\t use for four spaces\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "45d1570e-553a-43bd-83e1-01e99c1cf606",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\\n\n",
+      "\t\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('\\\\n')\n",
+    "print('\\t')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "622f8f7f-51b6-481b-834d-36edfeb59331",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\\n\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(r'\\n')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 106,
+   "id": "12223063-6371-4816-88bf-d542d95a9474",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello Prince - Chauhan\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Hello',end=' ')\n",
+    "print('Prince', end= ' - ')\n",
+    "print('Chauhan')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "4b7a2b14-a8fd-4e7c-9a53-297031a9e9a1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n",
+      "Prince\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('Hello\\nPrince')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "b64951d8-4c14-4a01-8c6e-f953e37da73c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10\n",
+      "x\n"
+     ]
+    },
+    {
+     "ename": "NameError",
+     "evalue": "name 'y' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[31m---------------------------------------------------------------------------\u001b[39m",
+      "\u001b[31mNameError\u001b[39m                                 Traceback (most recent call last)",
+      "\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[42]\u001b[39m\u001b[32m, line 4\u001b[39m\n\u001b[32m      2\u001b[39m \u001b[38;5;28mprint\u001b[39m(x)\n\u001b[32m      3\u001b[39m \u001b[38;5;28mprint\u001b[39m(\u001b[33m'\u001b[39m\u001b[33mx\u001b[39m\u001b[33m'\u001b[39m)\n\u001b[32m----> \u001b[39m\u001b[32m4\u001b[39m \u001b[38;5;28mprint\u001b[39m(\u001b[43my\u001b[49m)\n",
+      "\u001b[31mNameError\u001b[39m: name 'y' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "x = 10  # storing 10 in x \n",
+    "print(x)\n",
+    "print('x')\n",
+    "print(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "043642f7-e1ba-49be-89fb-b8ce17b10965",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "24\n"
+     ]
+    }
+   ],
+   "source": [
+    "# rule for making the variables\n",
+    "# 1  variable name can be alphabetically\n",
+    "asdf= 24\n",
+    "print(asdf)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "9dd9f842-91dc-49ca-b48b-4c5dbe53cef7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "43\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 2 variable name can be lower or upper case\n",
+    "aBcD= 43\n",
+    "print (aBcD)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "b5762e03-0e49-47a0-949a-68f98878464e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "24\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 3 variable name can be alphanumaric\n",
+    "asd12=24\n",
+    "print(asd12)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "da3fd3e1-6ca6-43fe-a780-bccaf10d5d36",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (3225695440.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[41]\u001b[39m\u001b[32m, line 2\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31m12ass=23\u001b[39m\n     ^\n\u001b[31mSyntaxError\u001b[39m\u001b[31m:\u001b[39m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 4 variabe name can't start with the numbers\n",
+    "12ass=23\n",
+    "print(12ass)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "3e910ecd-e6a9-44de-a231-971da48040c7",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "cannot assign to expression here. Maybe you meant '==' instead of '='? (2978523541.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[44]\u001b[39m\u001b[32m, line 2\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31masd^22= 23\u001b[39m\n    ^\n\u001b[31mSyntaxError\u001b[39m\u001b[31m:\u001b[39m cannot assign to expression here. Maybe you meant '==' instead of '='?\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 5 variable name can't contain the special character\n",
+    "asd^22= 23\n",
+    "print(asd^22)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "faf3d9ff-df84-4887-b426-4f2c44384185",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 6 in only special character '_' underscore can be contain in my variabe name\n",
+    "asd_12= 5\n",
+    "print(asd_12)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "2f41f388-d9c0-4435-9221-69d34bf40394",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (4276150712.py, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "  \u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[48]\u001b[39m\u001b[32m, line 2\u001b[39m\n\u001b[31m    \u001b[39m\u001b[31min = 4\u001b[39m\n    ^\n\u001b[31mSyntaxError\u001b[39m\u001b[31m:\u001b[39m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "# 7 built in keywords can't be your variable name\n",
+    "in = 4\n",
+    "print(in)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "4e61838d-9d14-4539-a592-d09dec68769b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The value of a is  5\n"
+     ]
+    }
+   ],
+   "source": [
+    "a= 5\n",
+    "print('The value of a is ',a)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9ed0262b-1588-4e82-a36d-df60ce2e8cbe",
+   "metadata": {},
+   "source": [
+    "# data type"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4ab17ca8-f19b-4b6c-8065-72466a936e1d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    " # int() = integer all +ve to -ve numbers that are in whole numbers ex: 2,-2,5\n",
+    " # float() = all decimal number are my float ex: 2.4, 33556.3,23.22\n",
+    " # string str() = anything that are in quotation always be my string ex: 'prince,213e'\n",
+    " # boolean bool() = True , False\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "cea4ecab-b58f-4b9e-8f1f-3219e5099d95",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=5\n",
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "f7397485-5dd7-47c6-9b86-ac1e55a187f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'float'>\n",
+      "<class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "b=5.0\n",
+    "c='4'\n",
+    "print(type(b))\n",
+    "print(type(c))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "42329bf6-f850-4d9c-86e8-5f76098aa89d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "8\n",
+      "8\n",
+      "8 <class 'int'>\n",
+      "8 <class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=8\n",
+    "b='8'\n",
+    "\n",
+    "\n",
+    "print(a)\n",
+    "print(b)\n",
+    "print(a,type(a))\n",
+    "print(b,type (b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "a36d4a6d-7c39-4aed-9498-8b7ec0f5d4cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the data type of 4.2 is <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x= 4.2  # type x ?\n",
+    "print('the data type of',x,'is',type(x))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "aeadf830-ca40-4579-a9d2-989a9e6f221a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "the data type of True is <class 'bool'>\n",
+      "the data type of abcd is <class 'str'>\n",
+      "the data type of 99 is <class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a= True\n",
+    "b= 'abcd'\n",
+    "c= 99\n",
+    "# check the data type with proper manner\n",
+    "print('the data type of',a,'is',type(a))\n",
+    "print('the data type of',b,'is',type(b))\n",
+    "print('the data type of',c,'is',type(c))\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7f0e9a57-84fd-46a9-af85-37c9078f3ef0",
+   "metadata": {},
+   "source": [
+    "# type casting"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "5e4303f7-332e-48ed-94c3-190980b2c8b5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# type casting is a change any of variable data type "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "cf97fa53-a3dc-47ba-860e-c675b5e250e4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x= 4.2\n",
+    "# how to change x  into integer data type ?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "bf474bcc-3cb6-48c4-ac88-95d645cf3207",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4 <class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x= 4.2 \n",
+    "y= int(x)\n",
+    "print(y,type(y))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1f492564-bdeb-4e28-9cd4-5ef467424635",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a= 9\n",
+    "# how to change a  into float data type ?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "4851bdbd-5645-49c7-b947-c02f40b901b5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9.0 <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=9\n",
+    "b=float(a)\n",
+    "print(b,type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "55ca57d5-7b7f-4c47-bdcb-f0b6a91cd7c4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=7 \n",
+    "change into string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "9a28986c-54b8-4122-bedf-d2a2e57711c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n",
+      "7 <class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "s=7\n",
+    "a=str(s)\n",
+    "print(a)\n",
+    "print(a,type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a4eb3e50-dd40-420d-a6b9-8a06e3215402",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# convert 5.2 into string\n",
+    "# convert '5' into float\n",
+    "# convert '3.5' into integer"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "fcf9888e-4ea5-44b8-982a-aa1855f1ef3b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.2 <class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=5.2\n",
+    "b=str(a)\n",
+    "print(b,type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 84,
+   "id": "086025d4-cf0a-4283-9d44-a3d3b28d4fa7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.0 <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a='5'\n",
+    "b=float(a)\n",
+    "print(b,type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "d7d8e095-c96f-4d07-923e-31967a16d0da",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3 <class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    " a='3.5'\n",
+    " b=float(a)\n",
+    " c=int(b)\n",
+    " print(c,type(c))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f53eb8fd-2c36-427b-a729-ae7b4475aca5",
+   "metadata": {},
+   "source": [
+    " # User input "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "819746f1-1431-4535-94a4-c2e0b7d8aea3",
+   "metadata": {},
+   "source": [
+    "### user input all value acceptable and data type always string"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "55ce2dbd-0f5c-4f8a-9136-942e2a20fe0c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value  5.5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5.5 <class 'str'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a= input('enter the value ')\n",
+    "print(a,type(a))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cf8e98e3-eb50-4afd-8014-5863fce938df",
+   "metadata": {},
+   "source": [
+    "### to make integer input"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "id": "cafe8143-73e8-428a-b405-e09780b10493",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value a 6\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6 <class 'int'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a= int(input('enter the value a'))\n",
+    "print(a,type(a))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8f5812af-dcbf-4590-86ec-c663eafc2011",
+   "metadata": {},
+   "source": [
+    "### if i need float value user input "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "7ea57899-07cb-4a90-ab37-570b488ce3ff",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter the value x 9.56\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "9.56 <class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "x= float(input('enter the value x'))\n",
+    "print(x,type(x))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "0afc25f7-328e-4d57-b783-6ce410272732",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your name Prince Chauhan\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My name is Prince Chauhan\n"
+     ]
+    }
+   ],
+   "source": [
+    "# yoenu can create variable. whever you take input, you need to the print in a proper fornate for example enter your name?\n",
+    "name = input('enter your name')\n",
+    "print('My name is',name)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 120,
+   "id": "fbd0a55a-bed6-4071-9165-1ea725158a2b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your age 20\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My age is 20\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = int(input('enter your age'))\n",
+    "print('My age is',age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "26b352c9-133e-42f2-a3da-ec3584f3be43",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your marks 50\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My marks is 50.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks= float(input('enter your marks'))\n",
+    "print('My marks is',marks)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c35e01e6-3960-4b1e-8e3b-e0d290fdf1b1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2c63464a-63aa-4b22-9456-dc0842cc41e1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ea6e3b10-5986-4568-936b-83dc9440c45a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8ea3edb6-9dd3-4fc7-8dc0-aa0bb19bdaac",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
